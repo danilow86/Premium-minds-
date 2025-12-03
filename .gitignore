@@ -1,0 +1,44 @@
+# Node
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
+.env
+.env.local
+.env.test
+
+# Build output
+dist/
+build/
+
+# WDIO
+allure-results/
+allure-report/
+.reports/
+.reports-ci/
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+
+# Xcode / iOS build artifacts
+DerivedData/
+xcuserdata/
+*.ipa
+*.app.dSYM
+*.xcarchive/
+
+# App simulator builds
+apps/*.app
+apps/*.ipa
+
+# IDE
+.idea/
+.vscode/
+
+# System
+Thumbs.db
