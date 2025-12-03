@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "wdio": "wdio run wdio.conf.ts",
+    "test": "wdio run wdio.conf.ts",
+    "test:login": "wdio run wdio.conf.ts --spec tests/login.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/danilow86/Premium-minds-#readme",
   "devDependencies": {
+    "@types/node": "^24.10.1",
     "@wdio/allure-reporter": "^9.21.0",
     "@wdio/appium-service": "^9.21.0",
     "@wdio/cli": "^9.21.1",
